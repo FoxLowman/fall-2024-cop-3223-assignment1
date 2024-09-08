@@ -96,13 +96,13 @@ double calculatePerimeter()
 double calculateArea()
 {
     //informing the user to input coordinates for the base
-    printf("Input the (x,y) coordinates for the base of your shape.");
+    printf("Input the (x,y) coordinates for the base of your shape.\n");
 
     //calling a function to allow and store user input
     double line1 = calculateDistance();
 
     //informing the user to input coordinates for the height
-    printf("Input the (x,y) coordinates for the height of your shape.");
+    printf("Input the (x,y) coordinates for the height of your shape.\n");
 
     //calling a function to allow and store user input
     double line2 = calculateDistance();
@@ -121,7 +121,7 @@ double calculateArea()
 double calculateWidth()
 {
     //informing the user to input coordinates for width
-    printf("Input the x,y valyes of your width line");
+    printf("Input the x,y valyes of your width line\n");
 
     //calling a function to allow and store user input
     double line1 = calculateDistance();
@@ -137,7 +137,7 @@ double calculateWidth()
 double calculateHeight()
 { 
     //informing the user to input coordinates for height
-    printf("Input the x,y valyes of your height line");
+    printf("Input the x,y valyes of your height line\n");
     
     //calling a function to allow and store user input
     double line1 = calculateDistance();
